@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px;
+  color: aliceblue;
+  background-color: red;
+  text-align: center;
+}
+
+h1 {
+  padding: 5px;
+}
+
+body {
+  text-align: center;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+li {
+  margin-inline: 10px;
+  list-style: none;
+  display: inline;
+}
+
+section {
+  padding: 15px;
+}
+
+p {
+  padding: 15px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  color: aliceblue;
+  background-color: red;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto formulario</title>
+  </head>
+  <body>
+    <header>
+      <h1>Hola soy el form</h1>
+      <span>Click al <a href="../index.html">Inicio</a></span>
+    </header>
+
+    <main>
+      <form action="/enviar" method="POST">
+        <h2>Formularo de contacto</h2>
+
+        <section>
+          <h4>Tus daros personales</h4>
+          <fieldset>
+            <legend>Datos</legend>
+            <div>
+              <label for="nombre">Nombre:</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Joe..."
+              />
+              <input type="search" id="search" name="search" />
+              <input type="password" id="password" name="password" />
+              <input type="datetime" id="datetime" name="datetime" />
+              <input type="date" id="nombre" name="nombre" />
+              <input type="time" />
+            </div>
+
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" />
+            </div>
+
+            <div>
+              <label for="phone">Telefono:</label>
+              <input type="number" id="phone" name="phone" />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <div>
+              <input type="range" name="" id="" />
+            </div>
+
+            <div>
+              <label for="genero">Genero</label>
+              <select name="genero" id="genero">
+                <option value="">Seleccione un Genero</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="">Intereses:</label>
+
+              <label for="futbol">Futbol</label>
+              <input type="checkbox" />
+
+              <label for="musica">Musica</label>
+              <input type="checkbox" />
+            </div>
+
+            <div>
+              <input type="radio" id="opcion1" name="opcion" />
+              <label for="opcion1">opcion1</label>
+
+              <input type="radio" id="opcion2" name="opcion" />
+              <label for="opcion2">opcion2</label>
+
+              <input type="radio" id="opcion3" name="opcion" />
+              <label for="opcion3">opcion3</label>
+            </div>
+
+            <div>
+              <label for="file">Seleccione un archivo</label>
+              <input type="file" id="file" name="file" />
+            </div>
+            <h4>Dejanos un comentario</h4>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </fieldset>
+        </section>
+
+        <input type="submit" />
+        <input type="reset" />
+      </form>
+    </main>
+
+    <footer>
+      <h6>&copy; Todos los derechos reservados</h6>
+      <section>
+        <ul>
+          <h5>Redes sociales:</h5>
+          <li><a href="#ig">Instagram</a></li>
+          <li><a href="#fb">Facebook</a></li>
+          <li><a href="#tw">Twitter</a></li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>

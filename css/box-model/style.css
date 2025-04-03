@@ -1,0 +1,57 @@
+body {
+  background-color: aliceblue;
+  margin: 0;
+  height: 1000px;
+}
+
+div {
+  color: aliceblue;
+  background-color: grey;
+  text-align: center;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid red;
+  box-sizing: border-box;
+
+  margin: 0 auto;
+}
+
+.static {
+  position: static;
+  top: 0px;
+  left: 0px;
+}
+
+.absolute {
+  position: absolute;
+  top: 0px;
+  right: calc(50vw - (150px / 2));
+}
+
+.fixed {
+  position: fixed;
+  right: 0;
+  top: calc(50vh - 20px);
+}
+
+.sticky {
+  position: sticky;
+  bottom: 0px;
+  top: 0px;
+}
+
+.box {
+  width: 60%;
+  height: 200px;
+  margin: 10px auto;
+  border: 1px solid blue;
+  padding: 0;
+  position: relative;
+}
+
+.relative {
+  margin: 0;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}

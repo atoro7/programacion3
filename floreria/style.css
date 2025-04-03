@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px;
+  color: aliceblue;
+  background-color: red;
+  text-align: center;
+}
+
+h1 {
+  padding: 5px;
+}
+
+h2 {
+  padding: 15px;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+body {
+  text-align: center;
+}
+
+li {
+  margin-inline: 10px;
+  list-style: none;
+  display: inline;
+}
+
+section {
+  padding: 15px;
+}
+
+p {
+  padding: 15px;
+}
+
+img {
+  box-shadow: 0px 2px 4px grey;
+}
+
+footer {
+  padding: 20px;
+  color: aliceblue;
+  background-color: red;
+}
